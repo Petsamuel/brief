@@ -1,0 +1,58 @@
+
+
+body{
+    background-image: url('port.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+
+.overlay{   
+    background-color: rgba(33, 33, 160, 0.247) ;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -10;
+    text-shadow: 0px 5px 8px black ;}
+
+@keyframes trans{
+    0%, 30%{
+        color: red ;
+        text-shadow: 0px 0px 1px black;
+        font-stretch: 40px;
+
+    }
+    50%, 70%{
+        color:blue;
+        text-shadow: 4px 0px 4px ;
+        padding-left: 50px;
+    }
+    100%{
+        color:geen;
+        text-shadow: 4px 0px 4px ;
+    }
+    
+}
+
+@keyframes color{
+
+    0%, 30%{
+        color: red ;
+        text-shadow: 0px 0px 1px black;
+        font-stretch: 40px;
+
+    }
+    50%, 70%{
+        color:blue;
+        text-shadow: 4px 0px 4px ;
+        padding-left: 50px;
+    }
+    100%{
+        color:geen;
+        text-shadow: 4px 0px 4px ;
+    }
+    
+}
